@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>UniFatecie - Centro universitário</title>
+  <link rel="stylesheet" href="/css/main.css"/>
+</head>
+
+<body>
+  <!-- TOPO (parecido com o da matriz) -->
+  <header class="top">
+    <div class="top__inner">
+      <a class="brand" href="/">
+        <span class="brand__logo">U</span>
+        <span class="brand__text">
+          <strong>UniFatecie</strong>
+          <small>Polos</small>
+        </span>
+      </a>
+
+      <nav class="top__links">
+        <!-- troca os href depois pelos links reais -->
+        <a class="pill" href="#" target="_blank" rel="noopener">Missão, visão e valores</a>
+        <a class="pill" href="#" target="_blank" rel="noopener">Ambiente virtual</a>
+        <a class="pill" href="#" target="_blank" rel="noopener">Nossos polos</a>
+        <a class="pill" href="#" target="_blank" rel="noopener">Serviços</a>
+      </nav>
+    </div>
+
+    <!-- FAIXA CINZA (3 botões principais internos) -->
+    <div class="navgray">
+      <div class="navgray__inner">
+        <a class="btn btn--ghost" href="/pages/graduacao.html">Graduação EAD</a>
+        <a class="btn btn--ghost" href="/pages/tecnologo.html">Tecnólogo EAD</a>
+        <a class="btn btn--ghost" href="/pages/pos.html">Pós-Graduação EAD</a>
+        <a class="btn btn--primary" href="/pages/matricula.html">Matricule-se</a>
+      </div>
+    </div>
+
+    
+  </header>
+
+  <!-- BANNER / SLIDER -->
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="slider" data-slider>
+        <div class="slider__track" data-track>
+          <!-- Slide 1 -->
+          <article class="slide slide--1">
+            <div class="slide__overlay"></div>
+            <div class="slide__content">
+              <span class="badge">Graduação EAD</span>
+              <h2>Comece sua graduação com mensalidades acessíveis</h2>
+              <p>Estude no seu ritmo, com suporte e praticidade.</p>
+              <div class="slide__actions">
+                <a class="btn btn--primary" href="/pages/graduacao.html">Ver cursos</a>
+                <a class="btn" href="/pages/matricula.html">Matricular agora</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Slide 2 -->
+          <article class="slide slide--2">
+            <div class="slide__overlay"></div>
+            <div class="slide__content">
+              <span class="badge">Pós-Graduação</span>
+              <h2>Especialize-se e avance na sua carreira</h2>
+              <p>Pós EAD: flexível, direto ao ponto e com ótimo custo-benefício.</p>
+              <div class="slide__actions">
+                <a class="btn btn--primary" href="/pages/pos.html">Ver pós</a>
+                <a class="btn" href="/pages/matricula.html">Quero me inscrever</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Slide 3 -->
+          <article class="slide slide--3">
+            <div class="slide__overlay"></div>
+            <div class="slide__content">
+              <span class="badge">Polo Andradina</span>
+              <h2>Atendimento rápido para tirar dúvidas e fazer matrícula</h2>
+              <p>Faça seu cadastro e receba seu acesso em 24 até horas.</p>
+              <div class="slide__actions">
+                <a class="btn btn--primary" href="/pages/matricula.html">Fazer cadastro</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <button class="slider__arrow slider__arrow--prev" type="button" aria-label="Slide anterior" data-prev>‹</button>
+        <button class="slider__arrow slider__arrow--next" type="button" aria-label="Próximo slide" data-next>›</button>
+
+        <div class="slider__dots" aria-label="Seleção de slides" data-dots></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARDS (igual “atalhos” da matriz) -->
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Acesso rápido</h2>
+        <p class="muted">Links úteis para candidatos e alunos.</p>
+      </div>
+
+      <div class="quick">
+        <a class="quick__card" href="https://lav.eadunifatecie.com.br/login/index.php" target="_blank" rel="noopener">
+          <strong>LAV - Acesso ao Sistema</strong>
+          <strong class="weak">Entrar no ambiente do aluno</strong>
+        </a>
+        <a class="quick__card" href="https://www.eadunifatecie.com.br/login/index.php" target="_blank" rel="noopener">
+          <strong>EAD - Acesso às Disciplinas</strong>
+          <strong class="weak">Portal de estudos</strong>
+        </a>
+        <a class="quick__card" href="https://portaldoaluno.fatecie.edu.br/login" target="_blank" rel="noopener">
+          <strong>Portal do Aluno</strong>
+          <strong class="weak">Boletos, solicitações e mais</strong>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAIXA “Formas de ingresso” -->
+  <section class="section section--soft">
+    <div class="container">
+      <div class="section__head section__head--center">
+        <h2>Formas de ingresso</h2>
+        <p class="muted">Escolha a melhor forma e faça seu cadastro.</p>
+      </div>
+
+      <div class="ingresso">
+        <article class="ingresso__card ingresso__card--featured">
+          <strong>Vestibular</strong>
+          <p>Prova simples online.</p>
+        </article>
+        <article class="ingresso__card">
+          <strong>ENEM</strong>
+          <p>Use sua nota para ingressar.</p>
+        </article>
+        <article class="ingresso__card">
+          <strong>2ª Graduação</strong>
+          <p>Quem já é graduado pode entrar sem prova.</p>
+        </article>
+        <article class="ingresso__card">
+          <strong>Transferência</strong>
+          <p>Convalidação de disciplinas.</p>
+        </article>
+      </div>
+
+      <div class="section__cta">
+        <a class="btn btn--primary" href="/pages/matricula.html">Matricule-se</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <strong>UniFatecie • Polos</strong>
+        <p class="muted">Atendimento e suporte para matrícula EAD.</p>
+      </div>
+      
+
+      <div class="footer__cols">
+        <div>
+          <strong>Contato</strong>
+          <p class="muted">(XX) XXXX-XXXX</p>
+          <p class="muted">(XX) 9XXXX-XXXX</p>
+        </div>
+        <div>
+          <strong>Links</strong>
+          <p><a class="link" href="/pages/graduacao.html">Graduação EAD</a></p>
+          <p><a class="link" href="/pages/tecnologo.html">Tecnólogo EAD</a></p>
+          <p><a class="link" href="/pages/pos.html">Pós-Graduação EAD</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__copy">
+      <small>© 2026 • Unifatecie Polo</small>
+    </div>
+  </footer>
+
+  <script type="module" src="/js/pages/home.js"></script>
+</body>
+</html>

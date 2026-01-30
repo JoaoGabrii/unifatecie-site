@@ -1,0 +1,145 @@
+[
+  {
+    "id": "eng-civil",
+    "nome": "Engenharia civil",
+    "tipo": "graduacao",
+    "duracao": "2,5 anos",
+    "modalidade": "EAD",
+    "mensalidade": 112.5,
+    "descricao": " focado no planejamento, projeto, construção e manutenção de infraestruturas essenciais para a sociedade, como edifícios, pontes, estradas, sistemas de saneamento, barragens e aeroportos, garantindo segurança, funcionalidade e sustentabilidade.",
+    "imagem": "assets/images/cursos/ads.jpg",
+    "ativo": true
+  },
+  {
+    "id": "adm",
+    "nome": "Administração",
+    "tipo": "graduacao",
+    "duracao": "4 anos",
+    "modalidade": "EAD",
+    "mensalidade": 99.9,
+    "descricao": "Formação completa em gestão, finanças, marketing e processos organizacionais.",
+    "imagem": "assets/images/cursos/adm.jpg",
+    "ativo": true
+  },
+  {
+    "id": "adm",
+    "nome": "Administração",
+    "tipo": "graduacao",
+    "duracao": "4 anos",
+    "modalidade": "EAD",
+    "mensalidade": 99.9,
+    "descricao": "Formação completa em gestão, finanças, marketing e processos organizacionais.",
+    "imagem": "assets/images/cursos/adm.jpg",
+    "ativo": true
+  },
+  {
+    "id": "adm",
+    "nome": "Administração",
+    "tipo": "graduacao",
+    "duracao": "4 anos",
+    "modalidade": "EAD",
+    "mensalidade": 99.9,
+    "descricao": "Formação completa em gestão, finanças, marketing e processos organizacionais.",
+    "imagem": "assets/images/cursos/adm.jpg",
+    "ativo": true
+  },
+  {
+    "id": "adm",
+    "nome": "Administração",
+    "tipo": "graduacao",
+    "duracao": "4 anos",
+    "modalidade": "EAD",
+    "mensalidade": 99.9,
+    "descricao": "Formação completa em gestão, finanças, marketing e processos organizacionais.",
+    "imagem": "assets/images/cursos/adm.jpg",
+    "ativo": true
+  },
+  {
+    "id": "adm",
+    "nome": "Administração",
+    "tipo": "graduacao",
+    "duracao": "4 anos",
+    "modalidade": "EAD",
+    "mensalidade": 99.9,
+    "descricao": "Formação completa em gestão, finanças, marketing e processos organizacionais.",
+    "imagem": "assets/images/cursos/adm.jpg",
+    "ativo": true
+  },
+  {
+    "id": "adm",
+    "nome": "Administração",
+    "tipo": "graduacao",
+    "duracao": "4 anos",
+    "modalidade": "EAD",
+    "mensalidade": 99.9,
+    "descricao": "Formação completa em gestão, finanças, marketing e processos organizacionais.",
+    "imagem": "assets/images/cursos/adm.jpg",
+    "ativo": true
+  },
+  {
+    "id": "adm",
+    "nome": "Administração",
+    "tipo": "graduacao",
+    "duracao": "4 anos",
+    "modalidade": "EAD",
+    "mensalidade": 99.9,
+    "descricao": "Formação completa em gestão, finanças, marketing e processos organizacionais.",
+    "imagem": "assets/images/cursos/adm.jpg",
+    "ativo": true
+  },
+  {
+    "id": "adm",
+    "nome": "Administração",
+    "tipo": "graduacao",
+    "duracao": "4 anos",
+    "modalidade": "EAD",
+    "mensalidade": 99.9,
+    "descricao": "Formação completa em gestão, finanças, marketing e processos organizacionais.",
+    "imagem": "assets/images/cursos/adm.jpg",
+    "ativo": true
+  },
+  {
+    "id": "adm",
+    "nome": "Administração",
+    "tipo": "graduacao",
+    "duracao": "4 anos",
+    "modalidade": "EAD",
+    "mensalidade": 99.9,
+    "descricao": "Formação completa em gestão, finanças, marketing e processos organizacionais.",
+    "imagem": "assets/images/cursos/adm.jpg",
+    "ativo": true
+  },
+  {
+    "id": "adm",
+    "nome": "Administração",
+    "tipo": "graduacao",
+    "duracao": "4 anos",
+    "modalidade": "EAD",
+    "mensalidade": 99.9,
+    "descricao": "Formação completa em gestão, finanças, marketing e processos organizacionais.",
+    "imagem": "assets/images/cursos/adm.jpg",
+    "ativo": true
+  },
+  {
+    "id": "pos-gestao",
+    "nome": "Gestão de Projetos",
+    "tipo": "pos",
+    "duracao": "12 meses",
+    "modalidade": "EAD",
+    "mensalidade": 129.9,
+    "descricao": "Pós-graduação para planejar, executar e controlar projetos com metodologias modernas.",
+    "imagem": "assets/images/cursos/pos.jpg",
+    "ativo": true
+  },
+  {
+    "id": "ads",
+    "nome": "Análise e Desenvolvimento de Sistemas",
+    "tipo": "tecnologo",
+    "duracao": "12 meses",
+    "modalidade": "EAD",
+    "mensalidade": 89.9,
+    "descricao": "Tecnologo para planejar, executar e controlar projetos com metodologias modernas.",
+    "imagem": "assets/images/cursos/pos.jpg",
+    "ativo": true
+  }
+]

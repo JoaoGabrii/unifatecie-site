@@ -1,0 +1,29 @@
+# Node
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+.cache
+.temp
+.tmp
+
+# Build local (opcional)
+# Se for usar Vercel/Hostinger com dist, NÃO ignore dist
+# dist/
+
+# Sourcemaps (opcional)
+*.map
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Testes
+testes/
