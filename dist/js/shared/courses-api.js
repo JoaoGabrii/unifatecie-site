@@ -1,15 +1,1 @@
-const cursosUrl = new URL("../../data/cursos.json", import.meta.url);
-
-export async function fetchCursos() {
-  const res = await fetch(cursosUrl, { cache: "no-store" });
-  if (!res.ok) throw new Error("Não foi possível carregar cursos.json");
-  return await res.json();
-}
-
-export function getCursoById(cursos, id) {
-  return cursos.find(c => String(c.id) === String(id));
-}
-
-export function filterCursosByTipo(cursos, tipo) {
-  return cursos.filter(c => c.ativo !== false && c.tipo === tipo);
-}
+(function(_0x20d68b,_0x5cf4fe){const _0x67de1c=_0x23ec,_0x382069=_0x20d68b();while(!![]){try{const _0x12b25c=parseInt(_0x67de1c(0x130))/0x1*(-parseInt(_0x67de1c(0x136))/0x2)+parseInt(_0x67de1c(0x12b))/0x3+parseInt(_0x67de1c(0x133))/0x4+-parseInt(_0x67de1c(0x131))/0x5+-parseInt(_0x67de1c(0x12c))/0x6*(parseInt(_0x67de1c(0x12a))/0x7)+parseInt(_0x67de1c(0x12e))/0x8*(-parseInt(_0x67de1c(0x12f))/0x9)+parseInt(_0x67de1c(0x134))/0xa;if(_0x12b25c===_0x5cf4fe)break;else _0x382069['push'](_0x382069['shift']());}catch(_0x1d2aa3){_0x382069['push'](_0x382069['shift']());}}}(_0xe6af,0xd0612));const cursosUrl=new URL('../../data/cursos.json',import.meta.url);export async function fetchCursos(){const _0x2d47ad=_0x23ec,_0x32cd5e=await fetch(cursosUrl,{'cache':_0x2d47ad(0x129)});if(!_0x32cd5e['ok'])throw new Error(_0x2d47ad(0x128));return await _0x32cd5e[_0x2d47ad(0x12d)]();}export function getCursoById(_0x5b3ce6,_0x532d79){return _0x5b3ce6['find'](_0x260312=>String(_0x260312['id'])===String(_0x532d79));}function _0x23ec(_0xd53a45,_0x22c900){_0xd53a45=_0xd53a45-0x128;const _0xe6afa7=_0xe6af();let _0x23ecbd=_0xe6afa7[_0xd53a45];return _0x23ecbd;}function _0xe6af(){const _0x2c68af=['2NyDopd','ativo','Não\x20foi\x20possível\x20carregar\x20cursos.json','no-store','165746XbcMfO','4302954TeHMmf','150tlxjmN','json','120tRROFa','46998DhJkim','1325061TNsenX','2875780VKGSjP','tipo','1574036lvZbze','15961920JTtopJ','filter'];_0xe6af=function(){return _0x2c68af;};return _0xe6af();}export function filterCursosByTipo(_0x5dbca1,_0x122449){const _0x46797a=_0x23ec;return _0x5dbca1[_0x46797a(0x135)](_0x497b4a=>!0x1!==_0x497b4a[_0x46797a(0x137)]&&_0x497b4a[_0x46797a(0x132)]===_0x122449);}
