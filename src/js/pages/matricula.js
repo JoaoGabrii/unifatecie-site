@@ -117,17 +117,26 @@ function validateCEP(cepMasked){
 
   // cursos
   const all = await fetchCursos();
-  const ativos = all.filter(c => c.ativo !== false);
+  console.log("Cursos sem nome:", all.filter(c => !c?.nome));
+  const ativos = all
+  .filter(c => c && c.ativo !== false)
+  .filter(c => typeof c.nome === "string" && c.nome.trim().length > 0)
+  .filter(c => c.id); // opcional, mas ajuda
 
-  ativos
-    .slice()
-    .sort((a, b) => a.nome.localeCompare(b.nome))
-    .forEach(c => {
-      const opt = document.createElement("option");
-      opt.value = c.id;
-      opt.textContent = `${c.nome} (${c.tipo === "pos" ? "Pós" : "Graduação"})`;
-      select.appendChild(opt);
-    });
+ativos
+  .slice()
+  .sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"))
+  .forEach(c => {
+    const opt = document.createElement("option");
+    opt.value = c.id;
+    opt.textContent = `${c.nome} (${c.tipo === "pos" ? "Pós" : "Graduação"})`;
+    if (!select) {
+  console.error("Não achei #cursoSelect no HTML");
+  return;
+}
+    select.appendChild(opt);
+  });
+
 
   // pré-seleciona via ?curso=ads
   const pre = getQueryParam("curso");

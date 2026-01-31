@@ -77,6 +77,7 @@ h3{ margin-top: 22px; }
   cursor:pointer;
   display:flex;
   flex-direction:column;
+  justify-content: space-between;
 }
 .card__thumb{
   height:140px;
@@ -453,6 +454,116 @@ input:focus, select:focus{
 .field.has-error small{
   display:block;
 }
+
+
+.curso-page{
+  background: var(--bg);
+  padding: 18px 0 38px;
+}
+
+.curso-shell{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  padding: 18px;
+}
+
+.curso-hero{
+  display:grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: 18px;
+  align-items: start;
+}
+
+.curso-hero__image{
+  border-radius: 18px;
+  overflow:hidden;
+  border:1px solid var(--border);
+  background:#eee;
+  box-shadow: var(--shadow);
+
+  /* isso aqui resolve a “imagem gigante esquisita” */
+  aspect-ratio: 16 / 10;
+}
+
+.curso-hero__image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+.curso-hero__card{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  padding: 18px;
+}
+
+.curso-title{
+  margin: 0 0 8px;
+  font-size: clamp(22px, 2.6vw, 34px);
+}
+
+.curso-meta{
+  margin: 0 0 10px;
+  color: var(--muted);
+}
+
+.curso-price{
+  margin: 0 0 14px;
+  color: var(--orange);
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.curso-actions{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top: 10px;
+}
+
+.curso-sections{
+  margin-top: 18px;
+  display:grid;
+  gap: 12px;
+}
+
+.curso-section{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  padding: 16px;
+}
+
+.curso-section h2{
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: var(--orange);
+}
+
+.curso-section p{
+  margin: 0;
+  color: #333;
+  line-height: 1.7;
+}
+
+.form__actions{
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  align-items: center;
+}
+
+@media (max-width: 900px){
+  .curso-hero{ grid-template-columns: 1fr; }
+  .curso-shell{ padding: 14px; }
+}
+
 
 
 

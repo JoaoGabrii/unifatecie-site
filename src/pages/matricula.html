@@ -1,14 +1,15 @@
 <!doctype html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Matrícula - Polo Andradina</title>
-  <link rel="stylesheet" href="/css/main.css"/>
+  <link rel="stylesheet" href="/css/main.css" />
 </head>
+
 <body>
   <main class="container">
-    <a href="javascript:history.back()" class="link">&larr; Voltar</a>
     <h1>Matrícula</h1>
 
     <form id="form" class="form">
@@ -26,12 +27,14 @@
 
       <div class="form__row">
         <div class="field">
-          <input name="nascimento" id="nascimento" placeholder="Data de nascimento (dd/mm/aaaa)*" pattern="\d{2}/\d{2}/\d{4}"  required>
+          <input name="nascimento" id="nascimento" placeholder="Data de nascimento (dd/mm/aaaa)*"
+            pattern="\d{2}/\d{2}/\d{4}" required>
           <small>Informe a data no formato dd/mm/aaaa</small>
         </div>
 
         <div class="field">
-          <input name="telefone" id="telefone" placeholder="Telefone com DDD*" required inputmode="tel" autocomplete="off">
+          <input name="telefone" id="telefone" placeholder="Telefone com DDD*" required inputmode="tel"
+            autocomplete="off">
           <small>Telefone inválido</small>
         </div>
       </div>
@@ -100,11 +103,15 @@
         </div>
       </div>
 
-      <button class="btn btn--primary" type="submit" id="btnSubmit">Enviar</button>
+      <div class="form__actions">
+        <button type="submit" class="btn btn--primary">Enviar</button>
+        <button type="button" class="btn" onclick="history.back()"> Voltar</button>
+      </div>
       <p id="status" class="muted"></p>
     </form>
   </main>
 
   <script type="module" src="/js/pages/matricula.js"></script>
 </body>
+
 </html>

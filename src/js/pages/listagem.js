@@ -1,6 +1,6 @@
 import { fetchCursos, filterCursosByTipo } from "../shared/courses-api.js";
 
-const PER_PAGE = 10;
+const PER_PAGE = 9;
 
 function renderCard(curso) {
   const mensalidade = (Number(curso.mensalidade) || 0).toLocaleString("pt-BR", {
@@ -15,7 +15,7 @@ function renderCard(curso) {
       </div>
       <div class="card__body">
         <h3 class="card__title">${curso.nome}</h3>
-        <p class="card__meta">${curso.duracao} • ${curso.modalidade}</p>
+        <p class="card__meta">${curso.duracao} • ${curso.modalidade} • ${curso.habilitacao} </p>
         <p class="card__price">${mensalidade}/mês</p>
         <button class="btn btn--primary card__btn" type="button">Ver detalhes</button>
       </div>
