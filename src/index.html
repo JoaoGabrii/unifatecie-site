@@ -1,10 +1,12 @@
 <!doctype html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>UniFatecie - Centro universitário</title>
-  <link rel="stylesheet" href="/css/main.css"/>
+  <link rel="icon" href="assets/images/icons/fav.png" sizes="192x192">
+  <link rel="stylesheet" href="/css/main.css" />
 </head>
 
 <body>
@@ -12,11 +14,12 @@
   <header class="top">
     <div class="top__inner">
       <a class="brand" href="/">
-        <span class="brand__logo">U</span>
+        <img src="assets/images/logo/unifatecie-centro-universitario-redimensionado.png" alt="">
+        <!-- <span class="brand__logo">U</span>
         <span class="brand__text">
           <strong>UniFatecie</strong>
           <small>Polos</small>
-        </span>
+        </span> -->
       </a>
 
       <!-- troca os href depois pelos links reais -->
@@ -33,13 +36,14 @@
     <div class="navgray">
       <div class="navgray__inner">
         <a class="btn btn--ghost" href="/pages/graduacao.html">Graduação EAD</a>
+        <a class="btn btn--ghost" href="/pages/licenciatura.html">Licenciatura EAD</a>
         <a class="btn btn--ghost" href="/pages/tecnologo.html">Tecnólogo EAD</a>
         <a class="btn btn--ghost" href="/pages/pos.html">Pós-Graduação EAD</a>
         <a class="btn btn--primary" href="/pages/matricula.html">Matricule-se</a>
       </div>
     </div>
 
-    
+
   </header>
 
   <!-- BANNER / SLIDER -->
@@ -49,43 +53,17 @@
         <div class="slider__track" data-track>
           <!-- Slide 1 -->
           <article class="slide slide--1">
-            <div class="slide__overlay"></div>
-            <div class="slide__content">
-              <span class="badge">Graduação EAD</span>
-              <h2>Comece sua graduação com mensalidades acessíveis</h2>
-              <p>Estude no seu ritmo, com suporte e praticidade.</p>
-              <div class="slide__actions">
-                <a class="btn btn--primary" href="/pages/graduacao.html">Ver cursos</a>
-                <a class="btn" href="/pages/matricula.html">Matricular agora</a>
-              </div>
-            </div>
+            <a class="slide__hit" href="/pages/graduacao.html" aria-label="Ir para Graduação"></a>
           </article>
 
           <!-- Slide 2 -->
           <article class="slide slide--2">
-            <div class="slide__overlay"></div>
-            <div class="slide__content">
-              <span class="badge">Pós-Graduação</span>
-              <h2>Especialize-se e avance na sua carreira</h2>
-              <p>Pós EAD: flexível, direto ao ponto e com ótimo custo-benefício.</p>
-              <div class="slide__actions">
-                <a class="btn btn--primary" href="/pages/pos.html">Ver pós</a>
-                <a class="btn" href="/pages/matricula.html">Quero me inscrever</a>
-              </div>
-            </div>
+            <a class="slide__hit" href="/pages/graduacao.html" aria-label="Ir para Graduação"></a>
           </article>
 
           <!-- Slide 3 -->
           <article class="slide slide--3">
-            <div class="slide__overlay"></div>
-            <div class="slide__content">
-              <span class="badge">Polo Andradina</span>
-              <h2>Atendimento rápido para tirar dúvidas e fazer matrícula</h2>
-              <p>Faça seu cadastro e receba seu acesso em 24 até horas.</p>
-              <div class="slide__actions">
-                <a class="btn btn--primary" href="/pages/matricula.html">Fazer cadastro</a>
-              </div>
-            </div>
+            <a class="slide__hit" href="/pages/graduacao.html" aria-label="Ir para Graduação"></a>
           </article>
         </div>
 
@@ -161,7 +139,7 @@
         <strong>UniFatecie • Polos</strong>
         <p class="muted">Atendimento e suporte para matrícula EAD.</p>
       </div>
-      
+
 
       <div class="footer__cols">
         <div>
@@ -185,4 +163,5 @@
 
   <script type="module" src="/js/pages/home.js"></script>
 </body>
+
 </html>

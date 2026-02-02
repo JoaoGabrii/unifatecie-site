@@ -29,7 +29,7 @@ function getQueryParam(name) {
   container.innerHTML = `
   <div class="curso-hero">
     <div class="curso-hero__image">
-      <img src="/${curso.imagem || "assets/images/placeholder.jpg"}" alt="${curso.nome}">
+      <img src="/${curso.imagem || "assets/images/placeholder.jpg"}" alt="${curso.nome}" loading="lazy" decoding="async">
     </div>
 
     <div class="curso-hero__card">

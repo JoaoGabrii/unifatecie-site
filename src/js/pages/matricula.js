@@ -129,7 +129,14 @@ ativos
   .forEach(c => {
     const opt = document.createElement("option");
     opt.value = c.id;
-    opt.textContent = `${c.nome} (${c.tipo === "pos" ? "Pós" : "Graduação"})`;
+    const tipoLabel = {
+  graduacao: "Graduação",
+  licenciatura: "Licenciatura",
+  tecnologo: "Tecnólogo",
+  pos: "Pós"
+};
+
+opt.textContent = `${c.nome} (${tipoLabel[c.tipo] || "Curso"})`;
     if (!select) {
   console.error("Não achei #cursoSelect no HTML");
   return;

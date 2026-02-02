@@ -358,9 +358,39 @@ input:focus, select:focus {
 
 .slide {
   min-width: 100%;
-  color: #fff;
-  background: radial-gradient(1200px 500px at 10% 0%, rgba(242, 140, 40, 0.55), transparent 55%), radial-gradient(800px 400px at 90% 20%, rgba(255, 255, 255, 0.18), transparent 55%), linear-gradient(120deg, #161616, #0f0f0f);
-  padding: 34px 26px;
+  position: relative;
+  /* CONTROLE DO TAMANHO DO BANNER */
+  min-height: 360px; /* aumenta/diminui aqui */
+  /* opcional: se quiser proporção fixa tipo banner */
+  /* aspect-ratio: 16 / 6; */
+  min-height: clamp(240px, 28vw, 420px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* você não precisa mais do padding pra “criar altura” */
+  padding: 0;
+}
+
+.slide--1 {
+  background-image: url("../assets/images/banner/banner-graduacao-outubro-70.jpg.webp");
+  width: 100%;
+}
+
+.slide--2 {
+  background-image: url("../assets/images/banner/banner_transferencia-matricula-UNIFATECIE.jpg.webp");
+  width: 100%;
+}
+
+.slide--3 {
+  background-image: url("../assets/images/banner/banner-cursos-formacao-rapida.jpg.webp");
+  width: 100%;
+}
+
+.slide__hit {
+  position: absolute;
+  inset: 0;
+  display: block;
+  z-index: 2;
 }
 
 .slide__content {
